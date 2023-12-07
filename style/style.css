@@ -1,0 +1,33 @@
+body {
+  background-color: brown;
+  color: black;
+  text-align: center;
+}
+
+#result {
+  border: 1px solid;
+  padding: 3rem;
+  margin: 3rem;
+  background-color: white;
+  border-radius: 3rem;
+  font-size: 3rem;
+}
+
+#text-area {
+  border: 1px solid;
+  padding: 3rem;
+  margin: 3rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+}
+
+body h1 {
+  font-size: 5rem;
+}
+
+.son {
+  border-radius: 2rem;
+  background-color: lightskyblue;
+  padding: 1rem;
+  padding: 2rem;
+}
