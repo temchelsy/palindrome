@@ -9,7 +9,7 @@ function palindromeTest(str) {
     return true
 
 }
-console.log(palindromeTest('baab'))
+console.log(palindromeTest('babb'))
 
 function checkPalindrome() {
     const pali = document.getElementById('text-area').value
@@ -17,7 +17,7 @@ function checkPalindrome() {
     const ema = document.getElementById('result')
 
     if (isPalindrome) {
-        ema.innerHTML = 'correct,it is a palindrome'
+        ema.innerHTML = 'the text entered is a palinndrome'
     } else {
         ema.innerHTML = 'sorry,it is not a palindrome'
     }
