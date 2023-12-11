@@ -1,6 +1,6 @@
 function palindromeTest (str) {
   let len = str.length - 1
-  for (let i = 0; i < str.length /2; i++) {
+  for (let i = 0; i < str.length / 2; i++) {
     if (str[i] !== str[len]) {
       return false
     }
@@ -18,6 +18,6 @@ function checkPalindrome () {
     ema.innerHTML = 'the text entered is a palinndrome'
   } else {
     ema.innerHTML = 'sorry,it is not a palindrome'
-    }
+  }
 }
-  checkPalindrome()
+checkPalindrome()
